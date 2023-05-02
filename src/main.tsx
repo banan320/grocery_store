@@ -3,9 +3,11 @@ import CssBaseline from '@mui/material/CssBaseline';
 import App from './App/App.tsx'
 import './index.css'
 
+
+
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <>
     <CssBaseline/>
-    <App />
+    <App  />
     </>
 )
