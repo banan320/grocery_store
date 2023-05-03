@@ -1,14 +1,14 @@
-import './App.css'
-import Header from "../components/Header"
-import { Container } from '@mui/material';
+import "./App.css";
+import Header from "../components/Header";
+import { Container } from "@mui/material";
 
 const App = () => {
   return (
-    <div className='App' >
+    <div className="App">
       <Container maxWidth="xl">
-      <Header/>
+        <Header />
       </Container>
-      </div>
+    </div>
   );
 };
 
